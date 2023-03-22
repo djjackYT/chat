@@ -126,7 +126,9 @@ textarea:focus, input:focus {
   display: inline-block !important;
   padding: 0.65vw;
   margin: 0.1vw;
-  border-radius: 5px;
+  border-radius: 3px;
+  padding:8px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
   background-color: rgba(47, 114, 181, 0.9);
   width: fit-content;
   max-width: 100%;
@@ -154,18 +156,58 @@ textarea:focus, input:focus {
   background-color: rgba(191, 36, 36, 0.85);
 }
 
-.chat-message.system {
+.chat-message-system {
+  display: inline-block !important;
+  padding: 0.65vw;
+  margin: 0.1vw;
+  border-radius: 3px;
+  padding:8px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
   background-color: rgba(190, 97, 18, 0.85);
+  width: fit-content;
+  max-width: 100%;
+  overflow: hidden;
+  word-break: break-word;
 }
 
-.chat-message.emergency {
+.chat-message-emergency {
+  display: inline-block !important;
+  padding: 0.65vw;
+  margin: 0.1vw;
+  border-radius: 3px;
+  padding:8px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
   background-color: rgba(163, 62, 48, 0.85);
+  width: fit-content;
+  max-width: 100%;
+  overflow: hidden;
+  word-break: break-word;
 }
 
-.chat-message.nonemergency {
+.chat-message-nonemergency {
+  display: inline-block !important;
+  padding: 0.65vw;
+  margin: 0.1vw;
+  border-radius: 3px;
+  padding:8px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
   background-color: rgba(112, 25, 25, 0.85);
+  width: fit-content;
+  max-width: 100%;
+  overflow: hidden;
+  word-break: break-word;
 }
 
 .chat-message.report {
+  display: inline-block !important;
+  padding: 0.65vw;
+  margin: 0.1vw;
+  border-radius: 3px;
+  padding:8px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
   background-color: rgba(86, 173, 10, 0.85);
+  width: fit-content;
+  max-width: 100%;
+  overflow: hidden;
+  word-break: break-word;
 }

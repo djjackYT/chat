@@ -176,7 +176,8 @@ end)
 
 RegisterNUICallback('loaded', function(data, cb)
   TriggerServerEvent('chat:init');
-
+  TriggerEvent('chat:addTemplate', '911chat', '<div class="chat-message-nonemergency "><div class="chat-message-body"><strong>{0}:</strong> {1}</div></div>')
+  TriggerEvent('chat:addTemplate', '311chat', '<div class="chat-message-system "><div class="chat-message-body"><strong>{0}:</strong> {1}</div></div>')
   refreshCommands()
   refreshThemes()
 

@@ -1,8 +1,9 @@
 # FiveM Chat
-Edited it to look as close to NoPixel's as possible
+Edited it to look like Nopixel 3.0 Chat
 
 ## Setup
-- Just swap it out with your default fivem chat in your resources/[cfx-default]/[gameplay]/chat
+- Put `chat` in any folder
+- Put `Ensure Chat` in server.cfg
 
 ## Preview
 ![image](https://user-images.githubusercontent.com/80810882/140306475-c8dcd8ce-150a-4157-9e47-91e647067559.png)

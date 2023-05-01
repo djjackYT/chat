@@ -1,5 +1,5 @@
 # FiveM Chat
-Edited it to look like Nopixel 3.0 Chat
+Edited it to look like Nopixel 3.5 Chat
 
 ## Setup
 - Put `chat` in any folder

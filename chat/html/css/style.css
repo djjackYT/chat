@@ -39,7 +39,7 @@ em {
   left: 15px;
   width: 35%;
   height: 0px;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 1s;
 }
 
 .chat-messages {
@@ -126,9 +126,11 @@ textarea:focus, input:focus {
   display: inline-block !important;
   padding: 0.65vw;
   margin: 0.1vw;
-  border-radius: 3px;
-  padding:8px;
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding:10px;
+  border-right: 2px solid rgba(9,75,55,0.5);
+	border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
   background-color: rgba(47, 114, 181, 0.9);
   width: fit-content;
   max-width: 100%;
